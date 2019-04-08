@@ -5,3 +5,5 @@ This code is planning to develop an android application which regards sharing us
 	For those who created notes:
 	As more and more people like your notes, you could learn about your own charm. It’s an implicit way to improve your self-confidence. When writing the note becomes your habit, this YLNote will become a record and accumulation of your life. 
 	For them all, by using this sharing forum, they could make friends with the same preferences. This app is a new way to improve quality of people’s life. 
+
+Display results under images.
