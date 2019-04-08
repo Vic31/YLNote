@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/y155">
+
+    <TextView
+        android:id="@+id/liked_btn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/liked"
+        android:textColor="@color/text_grey_3"
+        android:textSize="@dimen/x52"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/explore_btn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/explore"
+        android:textColor="@color/black"
+        android:textSize="@dimen/x52"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/collects_btn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/collects"
+        android:textColor="@color/text_grey_3"
+        android:textSize="@dimen/x52"
+        android:textStyle="bold"
+        />
+</LinearLayout>

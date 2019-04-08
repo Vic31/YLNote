@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "760653670901",
+    "firebase_url": "https://ylnote-8a903.firebaseio.com",
+    "project_id": "ylnote-8a903",
+    "storage_bucket": "ylnote-8a903.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:760653670901:android:10292da580e8d619",
+        "android_client_info": {
+          "package_name": "com.yang.ylnote"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "760653670901-sti7od9suhofnp3lcas5fdfqm38aonql.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-MTUZoj4jxTtdXql8DnGdxDYgfG2Lq4U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">YLNote</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_post">Post</string>
+    <string name="title_user">Me</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="password_length">at least 5 length</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short, at least 5 characters or numbers.</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."</string>
+
+    <string name="search">Please enter keyword here...</string>
+    <string name="follow">Follow</string>
+    <string name="followed">Followed</string>
+    <string name="explore">Explore</string>
+    <string name="collects">Collects</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="hint_post">Please write something you want to share, start from here...</string>
+    <string name="new_post">New Post</string>
+    <string name="share">Share</string>
+
+    <string name="post_detail">PostDetail</string>
+    <string name="personal_post">Personal Posts</string>
+    <string name="liked">Liked</string>
+
+    <string name="following_list">Following</string>
+    <string name="follower_list">Follower</string>
+
+</resources>

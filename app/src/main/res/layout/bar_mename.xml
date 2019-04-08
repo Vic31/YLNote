@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/y155"
+    android:background="@color/me_bar_bg">
+
+    <TextView
+        android:id="@+id/me_name"
+        android:layout_width="162dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="vicky"
+        android:textColor="@color/black"
+        android:textSize="@dimen/x46"
+        android:textStyle="bold" />
+
+</LinearLayout>

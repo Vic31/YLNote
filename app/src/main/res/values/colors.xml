@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="black">#111111</color>
+    <color name="grey_deep">#363636</color>
+    <color name="grey_mid">#4f4f4f</color>
+    <color name="grey_shallow">#696969</color>
+
+    <color name="white">#ffffff</color>
+
+    <color name="text_grey_1">#363636</color>
+    <color name="text_grey_2">#4f4f4f</color>
+    <color name="text_grey_3">#696969</color>
+    <color name="text_blue">#3926a5</color>
+
+    <color name="btn_login">#bbbab9</color>
+    <color name="btn_login_up">#c3c8cb</color>
+    <color name="btn_login_bot">#9eaab7</color>
+    <color name="post_bg">#f8eddc</color>
+
+    <color name="post_bar">#d6cbba</color>
+    <color name="me_bar_bg">#d0c3ae</color>
+</resources>

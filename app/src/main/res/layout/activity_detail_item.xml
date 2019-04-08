@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/me_bar_bg"
+    android:layout_marginLeft="@dimen/x10"
+    android:layout_marginRight="@dimen/x10"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/comment_name"
+            android:layout_width="@dimen/x280"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/x10"
+            android:layout_marginBottom="@dimen/x10"
+            android:layout_marginLeft="@dimen/x10"
+            android:layout_marginRight="@dimen/x10"
+            android:maxLength="18"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="@dimen/x34" />
+        <TextView
+            android:id="@+id/comment_content"
+            android:background="@color/me_bar_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/x10"
+            android:layout_marginBottom="@dimen/x10"
+            android:maxLines="5"
+            android:padding="@dimen/x5"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="@dimen/x34" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y1"
+        android:background="@color/text_grey_2"
+        />
+</LinearLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:background="@mipmap/login_bg2"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/y650"
+        android:layout_marginLeft="@dimen/x170"
+        android:layout_marginRight="@dimen/x170"
+        android:id="@+id/email_login_form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="@string/prompt_email"
+                android:textColor="@color/black"
+                android:textSize="@dimen/x52"
+                android:layout_width="@dimen/x240"
+                android:layout_height="wrap_content"
+                />
+
+            <AutoCompleteTextView
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x10"
+                android:paddingLeft="@dimen/x10"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:text=""
+                android:imeOptions="actionNext"
+                android:textSize="@dimen/x50"
+                android:singleLine="true" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="bottom"
+            android:layout_marginTop="@dimen/y40"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="@string/prompt_password"
+                android:textColor="@color/black"
+                android:textSize="@dimen/x52"
+                android:layout_width="@dimen/x240"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x10"
+                android:paddingLeft="@dimen/x10"
+                android:imeActionId="6"
+                android:imeActionLabel="@string/action_sign_in_short"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword"
+                android:textSize="@dimen/x50"
+                android:maxLines="1"
+                android:hint="@string/password_length"
+                android:singleLine="true" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/sign_in_btn"
+            android:text="@string/action_sign_in"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y142"
+            android:layout_marginTop="@dimen/x100"
+            android:layout_marginLeft="@dimen/x30"
+            android:layout_marginRight="@dimen/x30"
+            android:background="@drawable/btn_round"
+            />
+
+    </LinearLayout>
+</LinearLayout>
